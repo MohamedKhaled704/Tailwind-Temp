@@ -1,11 +1,12 @@
 import React from 'react'
+import image1 from "../assets/images/rafiki.png"
 
 export default function Unseen() {
   return (
     <div>
         <div className="unseen mt-20 lg:mt-10 md:px-25 flex md:flex-row items-center justify-between flex-col px-5">
             <div className="left-unseen py-9 flex flex-1">
-                <picture><img src="/images/rafiki.png" alt="rafiki" /></picture>
+                <picture><img src={image1} alt="rafiki" /></picture>
             </div>
             <div className="right-unseen flex-1">
                 <div className="right-unseen-text flex flex-col gap-y-3">

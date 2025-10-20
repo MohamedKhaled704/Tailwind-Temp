@@ -1,4 +1,5 @@
 import React from "react";
+import image1 from "../assets/images/image 9.png"
 
 export default function Meet() {
   return (
@@ -6,7 +7,7 @@ export default function Meet() {
       <div className="meet bg-[#F5F7FA] xl:px-35 lg:justify-between sm:px-25 px-5 flex lg:flex-row flex-col sm:items-center gap-x-25 py-5.5">
         <div className="meet-left">
           <picture>
-            <img src="/images/image 9.png" alt="Tesla image" />
+            <img src={image1} alt="Tesla image" />
           </picture>
         </div>
         <div className="meet-right pt-1.5">

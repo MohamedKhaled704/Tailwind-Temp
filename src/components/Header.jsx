@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import image1 from "../assets/images/Nexcent.png"
 import "../assets/styles/Header.css";
 
 export default function Header() {
@@ -44,7 +45,7 @@ export default function Header() {
           </svg>
 
           <picture>
-            <img src="/images/Nexcent.png" alt="nexcent" />
+            <img src={image1} alt="nexcent" />
           </picture>
         </div>
         <div className="header-right flex gap-6.5">

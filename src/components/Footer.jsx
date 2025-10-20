@@ -1,4 +1,5 @@
 import React from "react";
+import image1 from "../assets/images/NexcentF.png"
 import "../assets/styles/Footer.css"
 
 export default function Footer() {
@@ -42,7 +43,7 @@ export default function Footer() {
 
             <picture>
               <img
-                src="/images/NexcentF.png"
+                src={image1}
                 alt="Nexcent in white"
               />
             </picture>

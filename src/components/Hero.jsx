@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import image1 from "../assets/images/Illustration.png"
+import image2 from "../assets/images/Illustration 1.png"
+import image3 from "../assets/images/Illustration 2.png"
 import "../assets/styles/Hero.css"
 
 export default function Hero() {
@@ -6,15 +9,15 @@ export default function Hero() {
     const slideData = [
         {
             header: "Lessons and insights",
-            imgSrc: "/images/Illustration.png"
+            imgSrc: {image1}
         },
         {
             header: "Choices and chances",
-            imgSrc: "/images/Illustration 1.jpg"
+            imgSrc: {image2}
         },
         {
             header: "Moments and visions",
-            imgSrc: "/images/Illustration 2.png"
+            imgSrc: {image3}
         }
     ]
     
