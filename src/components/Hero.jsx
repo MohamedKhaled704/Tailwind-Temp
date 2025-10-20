@@ -9,15 +9,15 @@ export default function Hero() {
     const slideData = [
         {
             header: "Lessons and insights",
-            imgSrc: {image1}
+      imgSrc: image1
         },
         {
             header: "Choices and chances",
-            imgSrc: {image2}
+      imgSrc: image2
         },
         {
             header: "Moments and visions",
-            imgSrc: {image3}
+      imgSrc: image3
         }
     ]
     
