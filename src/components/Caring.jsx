@@ -1,4 +1,7 @@
 import React from "react";
+import image1 from "../assets/images/image 18.png"
+import image2 from "../assets/images/image 19.png"
+import image3 from "../assets/images/image 20.png"
 
 export default function Caring() {
   return (
@@ -18,7 +21,7 @@ export default function Caring() {
         <div className="caring-list grid gap-x-8 gap-y-25 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center mt-5">
           <div className="caring-list-item relative scale-100 hover:scale-110 transition duration-400">
             <picture className="">
-              <img src="/images/image 18.png" alt="" />
+              <img src={image1} alt="image1" />
             </picture>
             <div className="absolute text-center bg-[#F5F7FA] p-3 rounded-[5.5px] bottom-[-30%] left-[8.5%]" style={{boxShadow: "0px 5.57px 11.14px rgba(171, 190, 209, 0.4)"}}>
               <h4 className="text-[14px] text-[#717171] font-semibold">
@@ -48,7 +51,7 @@ export default function Caring() {
           </div>
           <div className="caring-list-item relative scale-100 hover:scale-110 transition duration-400">
             <picture className="">
-              <img src="/images/image 19.png" alt="" />
+              <img src={image2} alt="image2" />
             </picture>
             <div className="absolute text-center bg-[#F5F7FA] p-3 rounded-[5.5px] bottom-[-30%] left-[8.5%]" style={{boxShadow: "0px 5.57px 11.14px rgba(171, 190, 209, 0.4)"}}>
               <h4 className="text-[14px] text-[#717171] font-semibold">
@@ -78,7 +81,7 @@ export default function Caring() {
           </div>
           <div className="caring-list-item relative lg:col-span-1 sm:col-span-2 sm:justify-self-center scale-100 hover:scale-110 transition duration-400">
             <picture className="">
-              <img src="/images/image 20.png" alt="" />
+              <img src={image3} alt="image3" />
             </picture>
             <div className="absolute text-center bg-[#F5F7FA] p-3 rounded-[5.5px] bottom-[-30%] left-[8.5%]" style={{boxShadow: "0px 5.57px 11.14px rgba(171, 190, 209, 0.4)"}}>
               <h4 className="text-[14px] text-[#717171] font-semibold">
