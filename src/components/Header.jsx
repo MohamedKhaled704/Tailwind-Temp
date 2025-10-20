@@ -44,7 +44,7 @@ export default function Header() {
           </svg>
 
           <picture>
-            <img src="./src/assets/images/Nexcent.png" alt="nexcent" />
+            <img src="/images/Nexcent.png" alt="nexcent" />
           </picture>
         </div>
         <div className="header-right flex gap-6.5">

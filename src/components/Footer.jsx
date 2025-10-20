@@ -42,7 +42,7 @@ export default function Footer() {
 
             <picture>
               <img
-                src="./src/assets/images/NexcentF.png"
+                src="/images/NexcentF.png"
                 alt="Nexcent in white"
               />
             </picture>

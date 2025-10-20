@@ -6,7 +6,7 @@ export default function Meet() {
       <div className="meet bg-[#F5F7FA] xl:px-35 lg:justify-between sm:px-25 px-5 flex lg:flex-row flex-col sm:items-center gap-x-25 py-5.5">
         <div className="meet-left">
           <picture>
-            <img src="./src/assets/images/image 9.png" alt="Tesla image" />
+            <img src="/images/image 9.png" alt="Tesla image" />
           </picture>
         </div>
         <div className="meet-right pt-1.5">

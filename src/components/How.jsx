@@ -5,7 +5,7 @@ export default function How() {
     <div>
         <div className="how mt-10 px-5 sm:px-25 lg:pe-40 flex lg:flex-row lg:justify-between flex-col items-center">
             <div className="how-left">
-                <picture><img src="./src/assets/images/pana.png" alt="Pana" /></picture>
+                <picture><img src="/images/pana.png" alt="Pana" /></picture>
             </div>
             <div className="how-right py-10">
                 <div className="how-right-text flex flex-col gap-y-3">
