@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px) {
+    .preFooter>h2 {
+        font-size: 30px;
+    }
+    .preFooter button {
+        font-size: 11.14px;
+    }
+}

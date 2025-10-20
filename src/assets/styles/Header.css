@@ -1,0 +1,41 @@
+@media screen and (max-width: 767px) {
+    .header-right {
+        position: relative;
+    }
+    .menu {
+        position: absolute;
+        flex-direction: column !important;
+        top: 60px;
+        right: 5px;
+        background-color: #D1D5DB;
+        border-radius: 20px;
+    }
+    .menu li {
+        position: relative;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .menu li:not(:nth-child(5))::after {
+        content: "";
+        position: absolute;
+        width: 80%;
+        /* margin: 0 auto; */
+        margin: 0 4px 0 0;
+        background-color: rgba(0, 0, 0, 0.479);
+        padding: 0.1px;
+        bottom: 0;
+        right: 0;
+    }
+    .header-btn-li {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:424px) {
+    .header-right {
+        gap: 10px;
+    }
+    .header-btn {
+        padding: 0 9px;
+    }
+}
